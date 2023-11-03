@@ -6,5 +6,3 @@ def lengthOfLastWord(s):
         mots = s.split(' ')
         return len(mots[-1])
 
-print(lengthOfLastWord('Hello World'))
-print(lengthOfLastWord(""))
